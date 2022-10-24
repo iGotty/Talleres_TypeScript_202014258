@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+:root {
+    --gradient: linear-gradient(to left top, #605fca 10%, #5999e2 90%) !important;
+  }
+
+h1,h2{
+    text-align: center;
+}
+
+body {
+    font-family: "B612";
+    font-size: 22px;
+    background: rgb(74, 149, 219) !important;
+  }
+
+
+#average{
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#series {
+    border: solid 10px #5600e0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:50px; 
+    margin-right:50px;
+}
+
+#series tbody td {
+    border: solid 1px #5600e0;
+    color: rgb(5, 145, 226);
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(240, 172, 172);
+}
+
+.card {
+    background: rgb(250, 242, 242);
+    border: 10px solid #5600e0;
+    color: rgba(29, 3, 3, 0.8);
+    margin-left:50px; 
+    margin-top: 0.5rem;
+  }
+
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: rgb(86, 41, 209) !important;
+    border: 5px solid rgb(29, 14, 168) !important; 
+    box-shadow: rgb(49, 12, 214) 1px 0 10px;
+    text-decoration: underline;
+  }
